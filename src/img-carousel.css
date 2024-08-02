@@ -1,9 +1,60 @@
 /* Image Carousel */
-body {
-    background-color: rgb(20, 21, 21);
+
+.carousel-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.background-slides {
+    width:780px;
+    height: 780px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .slide-wrapper {
-    height: 350px;
-    width: 350px;
+    height: 150px;
+    width: 150px;
+    margin: 2.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-wrapper img {
+    height: 150px;
+    width: 150px;
+}
+
+.arrow {
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    margin-top: 37.5px;
+    margin-right: 10px;
+}
+
+.navigation-dots {
+    width: 250px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-dots img {
+    width: 15px;
+    margin: 5px;
 }
