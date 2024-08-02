@@ -3,13 +3,15 @@
 .carousel-container {
     position: relative;
     height: 540px;
+    color: gray;
     background-color: rgb(192, 227, 233);
     display: grid;
     grid-template-rows: 1fr 10fr 1fr;
     justify-items: center;
     align-items: center;
 }
-h4 {
+
+h1 {
     grid-row: 1;
     z-index: 1;
 }
@@ -30,14 +32,14 @@ h4 {
     align-items: center;
 }
 
-.slide-wrapper {
+.slide {
     height: 150px;
     width: 150px;
     margin: 2.5px;
     display: none;
 }
 
-.slide-wrapper img {
+.slide img {
     height: 100%;
     width: 100%;
 }
@@ -60,6 +62,7 @@ h4 {
 
 
 .navigation-dots {
+    position: absolute;
     grid-row: 3;
     width: 250px;
     display: flex;

@@ -1,5 +1,5 @@
 /* Image Carousel */
 
-function showSlide() {
+function showDefaultSlide() {
 
 }
