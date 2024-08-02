@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 40" x="0px" y="0px"><title>dot, circle, rec, record, geometry</title><g data-name="Layer 2"><path d="M16,27A11,11,0,1,1,27,16,11.013,11.013,0,0,1,16,27ZM16,7a9,9,0,1,0,9,9A9.011,9.011,0,0,0,16,7Z"/></g><text x="0" y="47" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">Created by Saepul Nahwan</text><text x="0" y="52" fill="#000000" font-size="5px" font-weight="bold" font-family="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif">from the Noun Project</text></svg>
+<svg viewBox="0 0 28 28" fill="gray"
+xmlns="http://www.w3.org/2000/svg" >
+<title>dot, circle, rec, record, geometry</title><g data-name="Layer 2">
+<path d="M16,27A11,11,0,1,1,27,16,11.013,11.013,0,0,1,16,27ZM16,7a9,9,0,1,0,9,9A9.011,9.011,0,0,0,16,7Z"/></g>
+</svg>
