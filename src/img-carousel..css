@@ -1,0 +1,9 @@
+/* Image Carousel */
+body {
+    background-color: rgb(20, 21, 21);
+}
+
+.slide-wrapper {
+    height: 350px;
+    width: 350px;
+}
