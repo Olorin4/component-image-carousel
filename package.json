@@ -1,0 +1,13 @@
+{
+  "name": "component-image-carousel",
+  "version": "1.0.0",
+  "description": "A simple image carousel that rotates between images.",
+  "main": "img-carousel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib"
+  },
+  "keywords": ["component", "image-carousel", "carousel"],
+  "author": "Nick Kalas",
+  "license": "ISC"
+}
