@@ -1,5 +1,6 @@
 /* Image Carousel */
 
-function showDefaultSlide() {
-
-}
+(function showDefaultSlide() {
+    const foregroundSlide = document.querySelector('[data-slide="3"]');
+    foregroundSlide.classList.add("visible");
+})();
