@@ -86,15 +86,17 @@ h1 {
 
 
 .navigation-dots {
-
     width: 250px;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
 }
-.navigation-dots img {
+.dot {
+    display: inline-block;
     width: 15px;
+    height: 15px;
     margin: 5px;
     cursor: pointer;
+    
 }
