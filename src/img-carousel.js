@@ -24,6 +24,17 @@ function switchSlide(direction) {
     let newSlide = document.querySelector(`[data-slide="${newSlideNumber}"]`);
     currentSlide.classList.remove("visible");
     newSlide.classList.add("visible");
+    highlightDot(currentSlideNumber, newSlideNumber);
+}
+
+
+function highlightDot(currentSlideNumber, newSlideNumber) {
+    let currentDotNumber = currentSlideNumber;
+    let currentDot = document.querySelector(`[data-dot="${currentSlideNumber}"]`);
+    currentDot.src = './assets/dot.svg';
+    
+    let newDot = document.querySelector(`[data-dot="${newSlideNumber}"]`);
+    newDot.src = './assets/dot-black.svg';
 }
 
 
@@ -35,3 +46,7 @@ function initImageCarousel() {
 }
 
 document.addEventListener('DOMContentLoaded', initImageCarousel);
+
+// TODO:
+// - Change arrow svg color on hover.
+// - Add dot slider function and change dot svg color on hover.

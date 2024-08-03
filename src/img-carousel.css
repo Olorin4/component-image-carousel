@@ -3,7 +3,7 @@
 .carousel-container {
     position: relative;
     height: 540px;
-    color: rgb(88, 87, 87);
+    color: rgb(157, 164, 172);
 
     display: flex;
     flex-direction: column;
@@ -64,6 +64,8 @@ h1 {
     left: 40px;
     z-index: 1;
     font-size: 1em;
+    background-color: rgba(71, 79, 80, 0.5);
+    padding: 10px;
 }
 
 
@@ -86,7 +88,6 @@ h1 {
 .navigation-dots {
 
     width: 250px;
-    z-index: 1;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
