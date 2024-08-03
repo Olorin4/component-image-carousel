@@ -70,7 +70,16 @@ function addHoverEffect(img) {
 }
   
 
+function autoSwitchSlides() {
+    setInterval(() => {
+        switchSlide('next');
+    }, 5000);
+}
+
+
 function initImageCarousel() {
+    autoSwitchSlides();
+
     const rightArrow = document.querySelector('#right-arrow');
     rightArrow.addEventListener('click', () => switchSlide('next'));
     addHoverEffect(rightArrow);
@@ -92,5 +101,4 @@ function initImageCarousel() {
 document.addEventListener('DOMContentLoaded', initImageCarousel);
 
 // TODO:
-// - Add hover effect to the arrows.
 // - Add a timeout which advances the slides every 5 seconds.
